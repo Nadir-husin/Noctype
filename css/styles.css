@@ -1,0 +1,626 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "poppins",sans-serif;
+}
+body{
+    background-color: rgb(234, 234, 234);
+}
+nav{
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo {
+    color: rgb(8, 8, 129);
+    font-size: 30px;
+    margin-left: 50px;
+    
+}         
+/*  */
+nav .links{
+    margin-top: 7px;
+}
+nav .links a {
+    margin-left: 10px;
+    color: black;
+    transition: 0.3s;
+}
+nav .links a:hover {
+    color: rgb(8, 8, 129);
+}
+
+
+nav .buttons button {
+    padding: 8px;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.914) ;
+    border: none;
+    outline: none ;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+nav .buttons button:hover {
+    transform: scale(1.2,1.2) ;
+
+}
+nav .buttons .btn2{
+    background-color: white;
+    color: black;
+    margin-left: 7px;
+}
+/*                end nav          */
+.first-section {
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.first-half{
+    width: 900px;
+    padding: 0 30px;
+}
+.first-half h2 {
+    font-size: 80px;
+}
+.first-half h2 span {
+    color: rgb(8, 8, 129);
+}
+.first-half p { 
+    font-size: 20px;
+    margin-top: 40px;
+    color: grey;
+
+}
+.first-half button{
+    margin: 70px 0 ;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color:white;
+    text-align: left;
+    margin-left: 2px;
+    cursor: pointer;
+    display: block;
+    transition: 0.3s;
+}
+.first-half button:hover{
+    transform: scale(1.2,1.2);
+}
+.first-half button i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    line-height: 40px;
+    text-align: center;
+    margin: 0px 7px;
+}
+.second-half img{
+    margin: 0 100px;
+    width: 600px;
+}
+/*                 end section one           */
+.nfts{
+    padding: 0 100px;
+}
+.nfts h2{
+    font-size: 40px;
+    margin-left: 24px;
+    font-weight: 700;
+
+}
+.nfts .parent1{
+    display: flex;
+    margin: 30px 10px ; 
+    justify-content: center;
+    justify-content: space-around;
+}
+.nfts .parent1 .slot{
+    background-color: white;
+    margin: 0 10px;
+    box-shadow: 5px 5px 5px rgb(175, 175, 175);
+    border-radius: 20px;
+    transition:0.2s;
+}
+.nfts .parent1 .slot:hover{
+    box-shadow: 0px 0px rgb(175, 175, 175);
+
+}
+.nfts .parent1 .slot .title {
+    display: flex;
+}
+.nfts .parent1 .slot .title i {
+    font-size: 30px;
+    margin: 0px 10px;
+}
+.nfts .parent1 .slot .title {
+    margin: 20px ;
+}
+.nfts .parent1 .slot .title h3 {
+    margin-top: 5px;
+}
+.nfts .parent1 .slot p {
+    margin: 20px 25px ;
+    font-size: 15px;
+}
+/*                                       end section three                 */
+.hotntfs{
+    margin: 100px 0;
+    padding: 0 90px;
+    
+}
+.hotntfs h2{
+    font-size: 40px;
+    margin-left: 34px;
+    font-weight: 700;
+}
+.spec{
+    padding: 20px 14px;
+    display: flex;
+    margin-left: 10px;
+}
+.spec .categ {
+    padding: 6px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 20px;
+    margin-left: 10px;
+    transition: 0.2s;
+}
+.spec .categ:hover{
+    transform: scale(1.1);
+}
+.hotntfs .parent2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.hotntfs .parent2 .item{
+    width: 360px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+.hotntfs .parent2 .item .img1 img{
+    margin-top: 20px;
+    width: 320px;
+    overflow: hidden;
+    border-radius: 20px;
+
+}
+.hotntfs .parent2 .item h4{
+    text-align: left;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+.hotntfs .parent2 .item .price{
+    text-align: left;
+    padding-left: 18px;
+}
+.hotntfs .parent2 .item i {
+    font-size: 20px;
+    color: rgb(37, 92, 245);
+}
+.hotntfs .parent2 .item span{
+    font-size: 12px;
+    color: rgb(37, 92, 245);
+}
+.hotntfs .parent2 .item p {
+    text-align: right;
+    padding: 5px 10px;
+    color: grey;
+    font-size: 10px;
+}
+.hotntfs .parent2 .item hr {
+    width: 90%;
+    margin: auto;
+    opacity: 0.5;
+}
+.hotntfs .parent2 .item .bot{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.hotntfs .parent2 .item .bot p {
+    color: black;
+    text-align: center;
+    background-color: rgb(223, 223, 223);
+    width: 80px;
+    border-radius: 30px;
+    margin: 5px 20px;
+}
+.hotntfs .parent2 .item .bot button{
+    border: none;
+    outline: none;
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+    margin-left: 150px;
+    width: 80px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.hotntfs .parent2 .item .bot button:hover{
+    background-color: rgb(95, 95, 95);
+    color: white;
+    transform: scale(1.1);
+}
+.btn3{
+    display: block;
+    margin:  50px auto;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: rgb(214, 214, 214);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn3:hover{
+    transform: scale(1.2);
+}
+/*                                  end section threee                          */
+
+.sellers{
+    margin: 100px 0;
+    padding: 0 90px;
+    
+}
+.sellers h2{
+    font-size: 40px;
+    margin-left: 24px;
+    font-weight: 700;
+}
+.sellers .parent3{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 20px;
+}
+.person{
+    display: flex;
+    width: 400px;
+    margin-left: 5px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(197, 197, 197);
+    padding: 15px;
+    transition: 0.2s;
+}
+.person:hover{
+    box-shadow: 0px 0px rgb(175, 175, 175);
+}
+.sellers .parent3 .img2
+{
+    width: 70px;
+}
+
+.sellers .parent3 .img2 img{
+    width: 100%;
+    height: 100%;
+}
+.sellers .parent3 .person .details{
+    margin-left: 10px;
+    align-self: center;
+}
+.sellers .parent3 .person .details h3{
+    font-size: 17px;
+    font-weight: 700;
+
+}
+.sellers .parent3 .person .details p{
+    margin: 10px 0;
+    font-size: 13px;
+}
+ /*                           footer                       */
+footer{
+    color: white;
+    background-color: black;
+}
+.Lparent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .Lparent .explore {
+    width: 800px;
+    padding: 90px;
+}
+footer .Lparent h2 {
+    font-size: 50px;
+}
+footer  .links {
+    margin-top: -60px;
+    margin-right: 50px;
+
+}
+footer .contact .links a{
+    padding: 0 20px;
+    color: grey;
+}
+footer .contact .icon {
+    text-align: right;
+    margin: 20px 70px;
+    font-size: 20px;
+}
+footer .contact .icon i{
+    cursor: pointer;
+}
+.contact p {
+    font-size: 15px;
+    color: grey;
+    text-align: right;
+    margin: 20px 70px;
+}
+
+/*                            media                   */
+
+@media only screen and (max-width: 1640px){
+    .first-section , .nfts , .hotntfs , .sellers {
+        padding: 0 70px;
+    }
+    .first-half h2 {
+        font-size: 60px;
+    }
+    .second-half img {
+        width: 500px;
+    }
+    .first-half p {
+        font-size: 17px;
+    }
+    .hotntfs .parent2 .item{
+        width: 300px;
+    }
+    .hotntfs .parent2 .item .img1 img{
+        width: 250px;
+    }
+    .hotntfs .parent2 .item .bot button{
+    margin-left: 90px ;
+    }
+    .person{
+        width: 330px;
+    }
+}
+@media only screen and (max-width: 1400px){
+    .first-section , .nfts , .hotntfs , .sellers {
+        padding: 0 40px;
+    }
+    .first-half h2 {
+        font-size: 50px;
+    }
+    .second-half img {
+        width: 440px;
+    }
+    .first-half p {
+        font-size: 15px;
+    }
+.nfts .parent1 .slot .title i {
+    font-size: 20px;
+    margin: 5px;
+}
+.nfts .parent1 .slot .title {
+    margin: 15px ;
+}
+.nfts .parent1 .slot p {
+    margin: 15px 20px ;
+    font-size: 13px;
+}
+.hotntfs .parent2 .item{
+        width: 250px;
+    }
+.hotntfs .parent2 .item .img1 img{
+        width: 200px;
+    }
+.hotntfs .parent2 .item .bot button{
+        margin-left: 40px ;
+    }
+.person{
+        width: 280px;
+    }
+footer .Lparent .explore {
+        width: 700px;
+        padding: 70px;
+    }
+footer .Lparent h2 {
+        font-size: 40px;
+    }
+footer  .links {
+        margin-top: 0px;
+        margin-right: 30px;
+    }
+    footer .contact .links a{
+        padding: 0 10px;
+    }
+}
+@media only screen and (max-width: 1090px){
+    .first-section {
+        flex-direction: column-reverse;
+    }
+    .second-half img {
+        width: 550px;
+        margin: 20px;
+    }
+    .first-half h2 {
+        font-size: 60px;
+    }
+    .first-half p {
+        font-size: 20px;
+    }
+    .nfts .parent1{
+        flex-direction: column;
+    }
+    .nfts .parent1 .slot {
+        margin: 20px 0;
+    }
+    .hotntfs .parent2{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .hotntfs .parent2 .item {
+        width: 400px; 
+        margin: 30px 0;
+    }
+    .hotntfs .parent2 .item .img1 img{
+        width: 350px;
+    }
+    .hotntfs .parent2 .item .bot button{
+        margin-left: 190px ;
+    }
+
+
+    .sellers .parent3 {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+    .person{
+        width: 360px;
+    }
+
+.Lparent{
+        flex-direction: column;
+    }
+footer .Lparent .explore {
+        width: 900px;
+        padding: 50px;
+    }
+footer .Lparent h2 {
+        font-size: 40px;
+    }
+footer .contact .icon {
+    text-align: center;
+}
+}
+
+@media only screen and (max-width: 800px){
+    nav h1 {
+    display: none;
+}
+.second-half img {
+    width: 450px;
+    margin: 20px;
+}
+.first-half{
+    width: 800px;
+    padding: 0 90px;
+}
+.first-half h2 {
+    font-size: 40px;    
+}
+.first-half p {
+    font-size: 14px;
+}
+.hotntfs .parent2{
+    flex-wrap: wrap;
+    gap: 0;
+}
+.person{
+    width: 600px;
+}
+
+
+footer .Lparent h2 {
+    width: 800px;
+    font-size: 30px;
+    padding: 0 90px;
+}
+
+}
+@media only screen and (max-width: 600px){
+    nav{
+        padding: 10px 2px;
+        font-size: 10px;
+    }      
+    nav .buttons button {
+        padding: 4px;
+    }
+    .second-half img {
+        width: 250px;
+        margin: 10px;
+    }
+    .first-half{
+        width: 500px;
+        padding: 0 100px;
+    }
+    .first-half h2 {
+        font-size: 20px;    
+    }
+    .first-half p {
+        font-size: 10px;
+    }
+    .first-half button{
+        margin: 30px 0 ;
+        width: 150px;
+        height: 45px;
+    }
+    .nfts{
+        padding: 0px;
+    }
+    .nfts h2{
+        font-size: 20px;
+    }
+    
+
+    .hotntfs{
+        margin: 10px 0;
+        padding: 0 10px;
+    }
+    .hotntfs h2{
+        font-size: 20px;
+    }
+    .spec .categ {
+        padding: 2px;
+    }
+    .hotntfs .parent2{
+        gap: 0px;
+    }
+    .hotntfs .parent2 .item {
+        width: 280px; 
+        margin-top: 10px;
+    }
+    .hotntfs .parent2 .item .img1 img{
+        width: 240px;
+    }
+    .hotntfs .parent2 .item .bot button{
+        margin-left: 80px ;
+    }
+    .sellers{
+        margin: 0px ;
+        padding: 0 40px;
+        
+    }
+    .sellers h2{
+        font-size: 25px;
+        margin-left: 0px;
+        font-weight: 700;
+    }
+    .person{
+        width: 600px;
+    }
+    footer .Lparent h2 {
+    width: 800px;
+    font-size: 15px;
+    padding: 0 250px;
+}
+footer .links {
+    font-size: 9px;
+}
+  .contact p {
+    font-size: 9px;
+    margin: 0;
+    text-align: center;
+  }
+}
+
